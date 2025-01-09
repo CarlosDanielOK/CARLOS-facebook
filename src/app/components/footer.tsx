@@ -2,56 +2,157 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer>
-      <div className="flex justify-center space-x-4 md:hidden">
-        <Link href="#">Información</Link>
-        <Link href="#">Ayuda</Link>
-        <Link href="#">Más</Link>
+    <footer className="px-4 flex justify-center flex-col items-center text-[#8a8d91] h-[10vh] md:h-[20vh]">
+      <div className="flex justify-center items-center space-x-4 xl:hidden">
+        <Link href="#" className="hover:underline">
+          Información
+        </Link>
+        <Link href="#" className="hover:underline">
+          Ayuda
+        </Link>
+        <Link href="#" className="hover:underline">
+          Más
+        </Link>
       </div>
-      <div className="hidden bg-red-500 md:flex md:justify-center md:items-center md:space-x-4 md:flex-wrap md:h-32 md:w-[1000px] ">
-        <Link href="#">Español</Link>
-        <Link href="#">English</Link>
-        <Link href="#">Português (Brasil)</Link>
-        <Link href="#">Français (France)</Link>
-        <Link href="#">Italiano</Link>
-        <Link href="#">Deutsch</Link>
-        <button className="bg-gray-100 border w-7 h-5 flex justify-center items-center shadow-sm">
-          +
-        </button>
-        <hr />
-        <Link href="#">Registrarte</Link>
-        <Link href="#">Iniciar sesión</Link>
-        <Link href="#">Messenger</Link>
-        <Link href="#">Facebook Lite</Link>
-        <Link href="#">Video</Link>
-        <Link href="#">Lugares</Link>
-        <Link href="#">Juegos</Link>
-        <Link href="#">Marketplace</Link>
-        <Link href="#">Meta Pay</Link>
-        <Link href="#">Tienda de Meta</Link>
-        <Link href="#">Meta Quest</Link>
-        <Link href="#">Ray-Ban Meta</Link>
-        <Link href="#">Meta AI</Link>
-        <Link href="#">Instagram</Link>
-        <Link href="#">Threads</Link>
-        <Link href="#">Recaudaciones de fondos</Link>
-        <Link href="#">Servicios</Link>
-        <Link href="#">Centro de información de votación</Link>
-        <Link href="#">Política de privacidad</Link>
-        <Link href="#">Centro de privacidad</Link>
-        <Link href="#">Grupos</Link>
-        <Link href="#">Información</Link>
-        <Link href="#">Crear anuncio</Link>
-        <Link href="#">Crear página</Link>
-        <Link href="#">Desarrolladores</Link>
-        <Link href="#">Empleo</Link>
-        <Link href="#">Cookies</Link>
-        <Link href="#">Opciones de anuncios</Link>
-        <Link href="#">Condiciones</Link>
-        <Link href="#">Ayuda</Link>
-        <Link href="#">Importación de contactos y no usuarios</Link>
-        <Link href="#">Configuración</Link>
-        <Link href="#">Registro de actividad</Link>
+      <section className="xl:hidden">
+        <p>CARLOS &copy; 2025</p>
+      </section>
+
+      <div className="hidden xl:flex xl:justify-center xl:items-center xl:space-x-4 xl:flex-wrap xl:w-[80rem] xl:text-sm xl:mt-4">
+        <section className="w-full flex items-center px-4 space-x-4">
+          <Link href="#" className="hover:underline">
+            Español
+          </Link>
+          <Link href="#" className="hover:underline">
+            English
+          </Link>
+          <Link href="#" className="hover:underline">
+            Português (Brasil)
+          </Link>
+          <Link href="#" className="hover:underline">
+            Français (France)
+          </Link>
+          <Link href="#" className="hover:underline">
+            Italiano
+          </Link>
+          <Link href="#" className="hover:underline">
+            Deutsch
+          </Link>
+          <Link
+            href="#"
+            className="bg-gray-100 border w-7 h-5 flex justify-center items-center shadow-sm"
+          >
+            +
+          </Link>
+        </section>
+
+        <hr className="w-full my-2" />
+
+        <section className="w-full flex flex-wrap gap-x-4">
+          <Link href="#" className="hover:underline">
+            Registrarte
+          </Link>
+          <Link href="#" className="hover:underline">
+            Iniciar sesión
+          </Link>
+          <Link href="#" className="hover:underline">
+            Messenger
+          </Link>
+          <Link href="#" className="hover:underline">
+            Facebook Lite
+          </Link>
+          <Link href="#" className="hover:underline">
+            Video
+          </Link>
+          <Link href="#" className="hover:underline">
+            Lugares
+          </Link>
+          <Link href="#" className="hover:underline">
+            Juegos
+          </Link>
+          <Link href="#" className="hover:underline">
+            Marketplace
+          </Link>
+          <Link href="#" className="hover:underline">
+            Meta Pay
+          </Link>
+          <Link href="#" className="hover:underline">
+            Tienda de Meta
+          </Link>
+          <Link href="#" className="hover:underline">
+            Meta Quest
+          </Link>
+          <Link href="#" className="hover:underline">
+            Ray-Ban Meta
+          </Link>
+          <Link href="#" className="hover:underline">
+            Meta AI
+          </Link>
+          <Link href="#" className="hover:underline">
+            Instagram
+          </Link>
+          <Link href="#" className="hover:underline">
+            Threads
+          </Link>
+          <Link href="#" className="hover:underline">
+            Recaudaciones de fondos
+          </Link>
+          <Link href="#" className="hover:underline">
+            Servicios
+          </Link>
+          <Link href="#" className="hover:underline">
+            Centro de información de votación
+          </Link>
+          <Link href="#" className="hover:underline">
+            Política de privacidad
+          </Link>
+          <Link href="#" className="hover:underline">
+            Centro de privacidad
+          </Link>
+          <Link href="#" className="hover:underline">
+            Grupos
+          </Link>
+          <Link href="#" className="hover:underline">
+            Información
+          </Link>
+          <Link href="#" className="hover:underline">
+            Crear anuncio
+          </Link>
+          <Link href="#" className="hover:underline">
+            Crear página
+          </Link>
+          <Link href="#" className="hover:underline">
+            Desarrolladores
+          </Link>
+          <Link href="#" className="hover:underline">
+            Empleo
+          </Link>
+          <Link href="#" className="hover:underline">
+            Cookies
+          </Link>
+          <Link href="#" className="hover:underline">
+            Opciones de anuncios
+          </Link>
+          <Link href="#" className="hover:underline">
+            Condiciones
+          </Link>
+          <Link href="#" className="hover:underline">
+            Ayuda
+          </Link>
+          <Link href="#" className="hover:underline">
+            Importación de contactos y no usuarios
+          </Link>
+          <Link href="#" className="hover:underline">
+            Configuración
+          </Link>
+          <Link href="#" className="hover:underline">
+            Registro de actividad
+          </Link>
+        </section>
+
+        <section className="my-4">
+          <p>CARLOS &copy; 2025</p>
+        </section>
       </div>
     </footer>
   );
