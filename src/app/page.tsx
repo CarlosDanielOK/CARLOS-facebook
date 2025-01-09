@@ -22,13 +22,15 @@ export default function CarlosFacebook() {
               height={300}
               alt="facebook"
               className="md:my-5"
+              priority
+              style={{ width: "auto", height: "auto" }}
             />
             <h1 className="hidden md:block text-2xl">
               Facebook te ayuda a comunicarte y compartir con las personas que
               forman parte de tu vida.
             </h1>
           </section>
-            <section className="flex flex-col items-center justify-center md:w-1/2 md:order-last">
+          <section className="flex flex-col items-center justify-center md:w-1/2 md:order-last">
             <form className="flex w-[95vw] flex-col gap-4 border p-4 rounded-md bg-white shadow-md md:w-[25rem]">
               <input
                 type="text"
