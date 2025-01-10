@@ -2,10 +2,26 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import Footer from "./components/Footer";
 import { showCustomToast } from "./components/Notificacion";
+import Opciones from "./components/Opciones";
+import { useEffect, useState } from "react";
 
 export default function CarlosFacebook() {
+  const [isKeyboardVisible, setIsKeyboardVisible] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerHeight < 500) {
+        setIsKeyboardVisible(true);
+      } else {
+        setIsKeyboardVisible(false);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const handleNotification = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
     showCustomToast("Carlos", "Hola, gracias por visitar mi página", "success");
@@ -73,7 +89,11 @@ export default function CarlosFacebook() {
           </section>
         </div>
       </main>
-      <Footer />
+      {!isKeyboardVisible && (
+        <div className="fixed bottom-0 w-full z-10">
+          <Opciones />
+        </div>
+      )}
     </>
   );
 }
