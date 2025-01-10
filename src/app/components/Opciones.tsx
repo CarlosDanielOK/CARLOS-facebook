@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Opciones() {
   return (
-    <footer className="px-4 flex justify-center flex-col items-center text-[#8a8d91] h-[10vh] md:h-[20vh]">
+    <footer className="px-4 flex my-2 justify-center flex-col items-center text-[#8a8d91] h-[10vh] md:h-[20vh]">
       <div className="flex justify-center items-center space-x-4 xl:hidden">
         <Link href="#" className="hover:underline">
           Información
