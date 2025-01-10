@@ -90,7 +90,7 @@ export default function CarlosFacebook() {
         </div>
       </main>
       {!isKeyboardVisible && (
-        <div className="fixed bottom-0 w-full z-10">
+        <div className="fixed bottom-0 w-full z-10 my-2">
           <Opciones />
         </div>
       )}
