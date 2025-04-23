@@ -12,7 +12,7 @@ Este proyecto es un **clon de la página de inicio de Facebook**, desarrollado c
 - [Next.js](https://nextjs.org/)
 - [React](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- TypeScript
+- [TypeScript](https://www.typescriptlang.org/)
 
 ---
 
