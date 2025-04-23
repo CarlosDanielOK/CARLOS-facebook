@@ -12,6 +12,17 @@ Este proyecto es un **clon de la página de inicio de Facebook**, desarrollado c
 
 ---
 
+## 📸 Vista previa del clon de Facebook
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CarlosDanielOK/CARLOS-facebook/main/public/capturadesktop.png" alt="Captura Desktop" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CarlosDanielOK/CARLOS-facebook/main/public/capturamobile.png" alt="Captura Mobile" width="300"/>
+</p>
+
+
 ## 🚀 Tecnologías usadas
 
 - [Next.js](https://nextjs.org/)
