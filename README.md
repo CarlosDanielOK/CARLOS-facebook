@@ -1,4 +1,4 @@
-# Facebook Login Page Clone
+# Clon de la página de inicio de Facebook
 
 Este proyecto es un **clon de la página de inicio de Facebook**, desarrollado con **Next.js**, **React** y **Tailwind CSS**. Fue creado con fines educativos para practicar diseño responsivo y replicar interfaces reales con tecnologías modernas.
 
