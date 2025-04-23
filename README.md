@@ -2,7 +2,7 @@
 
 Este proyecto es un **clon de la página de inicio de Facebook**, desarrollado con **Next.js** y **Tailwind CSS**. Fue creado con fines educativos para practicar diseño responsivo y replicar interfaces reales con tecnologías modernas.
 
-🔗 **Deploy en Vercel**: (./public/capturadesktop.png)
+🔗 **Deploy en Vercel**: (/public/capturadesktop.png)
 
 ---
 
