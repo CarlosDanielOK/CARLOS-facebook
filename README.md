@@ -8,7 +8,7 @@ Este proyecto es un **clon de la página de inicio de Facebook**, desarrollado c
 
 ## 🖥️ Vista previa
 
-./public/screenshot.png
+./public/capturadesktop.png
 
 ---
 
