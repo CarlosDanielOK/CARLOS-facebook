@@ -15,6 +15,13 @@ Este proyecto es un **clon de la página de inicio de Facebook**, desarrollado c
 
 ---
 
+## 🖥️ Vista previa
+
+![Captura Desktop](./assets/capturadesktop.png)
+![Captura Mobile](./assets/capturamobile.png)
+
+---
+
 ## 📦 Instalación local
 
 ```bash
@@ -22,10 +29,3 @@ git clone https://github.com/CarlosDanielOK/CARLOS-facebook.git
 cd facebook-clone
 npm install
 npm run dev
-
----
-
-## 🖥️ Vista previa
-
-![Captura Desktop](./assets/capturadesktop.png)
-![Captura Mobile](./assets/capturamobile.png)
