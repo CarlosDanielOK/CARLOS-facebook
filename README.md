@@ -8,7 +8,7 @@ Este proyecto es un **clon de la página de inicio de Facebook**, desarrollado c
 
 ## 🖥️ Vista previa
 
-![Captura Desktop](/capturadesktop.png)
+![Captura Desktop](https://github.com/CarlosDanielOK/CARLOS-facebook/blob/main/public/capturadesktop.png)
 
 ---
 
