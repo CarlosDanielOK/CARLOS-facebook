@@ -25,7 +25,7 @@ Este proyecto es un **clon de la página de inicio de Facebook**, desarrollado c
 ## 📦 Instalación local
 
 ```bash
-git clone https://github.com/CarlosDanielOK/CARLOS-facebook.git
-cd CARLOS-facebook
+git clone https://github.com/CarlosDanielOK/facebook-clone.git
+cd facebook-clone
 npm install
 npm run dev
