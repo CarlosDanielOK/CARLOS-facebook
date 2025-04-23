@@ -2,7 +2,8 @@
 
 Este proyecto es un **clon de la página de inicio de Facebook**, desarrollado con **Next.js**, **React** y **Tailwind CSS**. Fue creado con fines educativos para practicar diseño responsivo y replicar interfaces reales con tecnologías modernas.
 
-🔗 **Deploy en Vercel**: https://carlosfacebook.vercel.app/
+- 🔗 **Deploy en Vercel**: https://carlosfacebook.vercel.app/
+- 📲 ** Ver demo en YouTube**: https://www.youtube.com/watch?v=ZOVwKn54gm8
 
 ---
 
